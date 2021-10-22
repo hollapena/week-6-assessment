@@ -5,8 +5,26 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.3.4/jasmine.css">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Roboto&display=swap');
+    
     body {
         font-family: sans-serif;
+        color:white;
+        background-color:black;
+        display:grid;
+        align-items:center;
+        justify-items:center;
+        margin-top:-90px;
+    }
+
+    h1{
+        font-family:Qahiri;
+        font-size:200px;
+        height: 100px;
+        margin-top:-50;
+        color:red;
+        align-items:center;
+        justify-items:center;
     }
 
     #game-board {
@@ -15,7 +33,7 @@
     }
 
     #game-board td {
-        border: solid 1px black;
+        border: solid 1px white;
         height: 80px;
         width: 80px;
         text-align: center;
@@ -25,7 +43,7 @@
 </head>
 <body>
 
-<h1>Tic Tac JS
+<h1>Tic Tac JS <br>
   <button id="start-game">Start!</button>
 </h1>
 
