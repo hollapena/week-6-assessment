@@ -1,4 +1,4 @@
-import { Builder, Capabilities, By, Assert} from "selenium-webdriver"
+import { Builder, Capabilities, By} from "selenium-webdriver"
 import { elementIsDisabled } from "selenium-webdriver/lib/until"
 import { isAssertionExpression } from "typescript"
 
